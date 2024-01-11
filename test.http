@@ -1,0 +1,30 @@
+###
+GET http://localhost:6000
+
+###
+POST http://localhost:6000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "todo": "NodeJS"
+}
+
+###
+PUT http://localhost:6000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 3,
+  "todo": "rrrr"
+}
+
+###
+DELETE http://localhost:6000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 2
+}
